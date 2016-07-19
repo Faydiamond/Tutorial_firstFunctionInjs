@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>First Function</title>
+    <h2>Tutorial for learning the concept of function</h2><br><br>
+    <center><input type="button" value="Clickeame" onclick="Goo();"></center>
+  </head>
+  <body>
+    <script type="text/javascript">
+        //una funcion se declara con la palabra reservada function + () + {}
+        //por ejemplo
+        function Goo()
+        {
+          //dentro de la funcion se programa lo que se quiera hacer con la misma, cuando llamas a la funcion lo que esta hace es ejecutar las lineas que estan por dentro de ella
+          var Num1=prompt('Write a number','');                                         //el prompt solicita a los usuarios
+          var Num2=prompt('Write a number','');
+          Num1=parseInt(Num1);
+          Num2=parseInt(Num2);
+          console.log(Num1);
+          var Result=Num1+Num2;                                                         //asignacion a la operacion
+          alert("The result of operation is"+Result);                                   //mensaje de salida para el usuario
+        }
+    </script>
+  </body>
+</html>
